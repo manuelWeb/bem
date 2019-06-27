@@ -1,0 +1,20 @@
+.Link {
+  color: black;
+}
+
+.Link--active {
+  color: blue;
+  font-weight: bold;
+}
+
+.Link--type--button {
+  display: inline-block;
+  padding: 4px;
+  background: blue;
+  color: white;
+}
+
+.Link--type--button.Link--type--active {
+  background: white;
+  color: blue;
+}
